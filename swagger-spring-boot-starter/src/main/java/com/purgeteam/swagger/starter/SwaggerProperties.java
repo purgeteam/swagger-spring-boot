@@ -23,7 +23,7 @@ public class SwaggerProperties {
   /**
    * title 如: 用户模块系统接口详情
    */
-  private String title = "深兰云平台系统接口详情";
+  private String title = "平台系统接口详情";
 
   /**
    * 服务文件介绍
@@ -33,7 +33,7 @@ public class SwaggerProperties {
   /**
    * 服务条款网址
    */
-  private String termsOfServiceUrl = "https://www.deepblueai.com/";
+  private String termsOfServiceUrl = "https://www.purgeteam.com/";
 
   /**
    * 版本

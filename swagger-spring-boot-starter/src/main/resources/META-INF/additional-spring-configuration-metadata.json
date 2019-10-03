@@ -7,7 +7,7 @@
     {
       "name": "swagger.title",
       "type": "java.lang.String",
-      "defaultValue": "深兰云平台系统接口详情",
+      "defaultValue": "平台系统接口详情",
       "description": "title 如: 用户模块系统接口详情。"
     },
     {
@@ -19,7 +19,7 @@
     {
       "name": "swagger.termsOfServiceUrl",
       "type": "java.lang.String",
-      "defaultValue": "https://www.deepblueai.com/",
+      "defaultValue": "https://www.purgeteam.com/",
       "description": "服务条款网址。"
     },
     {
