@@ -48,9 +48,9 @@
 
   <!-- 代码库 -->
   <scm>
-    <connection>scm:git:git://github.com/purgeteam/unified-dispose-springboot.git</connection>
-    <developerConnection>scm:git:ssh://github.com/purgeteam/unified-dispose-springboot.git</developerConnection>
-    <url>https://github.com/purgeteam/unified-dispose-springboot</url>
+    <connection>scm:git:git://github.com/purgeteam/swagger-spring-boot.git</connection>
+    <developerConnection>scm:git:ssh://github.com/purgeteam/swagger-spring-boot.git</developerConnection>
+    <url>https://github.com/purgeteam/swagger-spring-boot</url>
   </scm>
 
   <!-- 定义snapshots库和releases库的nexus地址 -->
