@@ -1,6 +1,6 @@
-package io.purge.swagger.annotation;
+package com.purgeteam.swagger.starter.annotation;
 
-import io.purge.swagger.SwaggerConfig;
+import com.purgeteam.swagger.starter.SwaggerConfig;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

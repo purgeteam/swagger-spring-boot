@@ -1,6 +1,6 @@
-package com.purge.swagger.demo;
+package com.purgeteam.swagger.demo;
 
-import io.purge.swagger.annotation.EnableSwaggerPlugins;
+import com.purgeteam.swagger.starter.annotation.EnableSwaggerPlugins;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

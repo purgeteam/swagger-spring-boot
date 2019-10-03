@@ -1,4 +1,4 @@
-package io.purge.swagger;
+package com.purgeteam.swagger.starter;
 
 import javax.annotation.Resource;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

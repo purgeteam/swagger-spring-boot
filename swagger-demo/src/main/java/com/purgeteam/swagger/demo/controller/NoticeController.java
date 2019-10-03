@@ -1,6 +1,6 @@
-package com.purge.swagger.demo.controller;
+package com.purgeteam.swagger.demo.controller;
 
-import com.purge.swagger.demo.model.Notice;
+import com.purgeteam.swagger.demo.model.Notice;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;

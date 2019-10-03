@@ -1,4 +1,4 @@
-package com.purge.swagger.demo.model;
+package com.purgeteam.swagger.demo.model;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

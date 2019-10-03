@@ -1,4 +1,4 @@
-package io.purge.swagger;
+package com.purgeteam.swagger.starter;
 
 import lombok.Data;
 import lombok.ToString;
