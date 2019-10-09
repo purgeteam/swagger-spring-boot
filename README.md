@@ -16,7 +16,7 @@
 
 ### 1. @EnableSwaggerPlugins特性
 > 配置swagger.properties文件
-- copy `cloud-starter/config/swagger.properties` 配置
+- 创建 `swagger.properties` 配置文件
         到自己模块的`resources`目录下 更改`swagger.properties`配置
 
 - swagger.properties 介绍
