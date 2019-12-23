@@ -15,6 +15,9 @@ qq交流群:`812321371`
 
 > 添加依赖
 
+**ps:** 实际version版本请使用最新版
+**最新版本:** [![Maven Central](https://img.shields.io/maven-central/v/com.purgeteam/swagger-spring-boot-starter.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:com.purgeteam%20AND%20a:swagger-spring-boot-starter)
+
 ```
 <dependency>
   <groupId>com.purgeteam</groupId>
