@@ -1,15 +1,11 @@
 package com.purgeteam.swagger.starter;
 
-import lombok.Data;
-import lombok.ToString;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
  * @author purgeyao
  * @since 0.1.0
  */
-@Data
-@ToString
 @ConfigurationProperties(SwaggerProperties.PREFIX)
 public class SwaggerProperties {
 
@@ -40,5 +36,57 @@ public class SwaggerProperties {
    */
   private String version = "V1.0";
 
+  /**
+   * 是否优化 网关 select a spec 列表
+   */
+  private Boolean isOptimizeLocation = true;
+
+  public String getBasePackage() {
+    return basePackage;
+  }
+
+  public void setBasePackage(String basePackage) {
+    this.basePackage = basePackage;
+  }
+
+  public String getTitle() {
+    return title;
+  }
+
+  public void setTitle(String title) {
+    this.title = title;
+  }
+
+  public String getDescription() {
+    return description;
+  }
+
+  public void setDescription(String description) {
+    this.description = description;
+  }
+
+  public String getTermsOfServiceUrl() {
+    return termsOfServiceUrl;
+  }
+
+  public void setTermsOfServiceUrl(String termsOfServiceUrl) {
+    this.termsOfServiceUrl = termsOfServiceUrl;
+  }
+
+  public String getVersion() {
+    return version;
+  }
+
+  public void setVersion(String version) {
+    this.version = version;
+  }
+
+  public Boolean getIsOptimizeLocation() {
+    return isOptimizeLocation;
+  }
+
+  public void setIsOptimizeLocation(Boolean isOptimizeLocation) {
+    this.isOptimizeLocation = isOptimizeLocation;
+  }
 
 }
