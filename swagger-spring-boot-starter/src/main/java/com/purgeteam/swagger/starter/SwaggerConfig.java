@@ -1,6 +1,7 @@
 package com.purgeteam.swagger.starter;
 
 import javax.annotation.Resource;
+
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -22,26 +23,26 @@ import springfox.documentation.spring.web.plugins.Docket;
 @EnableConfigurationProperties(SwaggerProperties.class)
 public class SwaggerConfig {
 
-  @Resource
-  private SwaggerProperties swaggerProperties;
+    @Resource
+    private SwaggerProperties swaggerProperties;
 
-  @Bean
-  public Docket buildDocket() {
-    return new Docket(DocumentationType.SWAGGER_2)
-        .apiInfo(buildApiInf())
-        .select()
-        .apis(RequestHandlerSelectors.basePackage(""))
-        .paths(PathSelectors.any())
-        .build();
-  }
+    @Bean
+    public Docket buildDocket() {
+        return new Docket(DocumentationType.SWAGGER_2)
+                .apiInfo(buildApiInf())
+                .select()
+                .apis(RequestHandlerSelectors.basePackage(""))
+                .paths(PathSelectors.any())
+                .build();
+    }
 
-  private ApiInfo buildApiInf() {
-    return new ApiInfoBuilder()
-        .title(swaggerProperties.getTitle())
-        .description(swaggerProperties.getDescription())
-        .termsOfServiceUrl(swaggerProperties.getTermsOfServiceUrl())
-        .contact(new Contact("skyworth", swaggerProperties.getTermsOfServiceUrl(), ""))
-        .version(swaggerProperties.getVersion())
-        .build();
-  }
+    private ApiInfo buildApiInf() {
+        return new ApiInfoBuilder()
+                .title(swaggerProperties.getTitle())
+                .description(swaggerProperties.getDescription())
+                .termsOfServiceUrl(swaggerProperties.getTermsOfServiceUrl())
+                .contact(new Contact("skyworth", swaggerProperties.getTermsOfServiceUrl(), ""))
+                .version(swaggerProperties.getVersion())
+                .build();
+    }
 }

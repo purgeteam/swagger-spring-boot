@@ -1,47 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <parent>
-    <groupId>com.purgeteam</groupId>
-    <artifactId>swagger-spring-boot</artifactId>
-    <version>0.1.0.RELEASE</version>
-  </parent>
-  <modelVersion>4.0.0</modelVersion>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.purgeteam</groupId>
+        <artifactId>swagger-spring-boot</artifactId>
+        <version>0.1.0.RELEASE</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>swagger-spring-boot-starter</artifactId>
-  <version>0.1.1.RELEASE</version>
+    <artifactId>swagger-spring-boot-starter</artifactId>
+    <version>0.1.1.RELEASE</version>
 
-  <properties>
-    <swagger2.version>2.9.2</swagger2.version>
-  </properties>
+    <properties>
+        <swagger2.version>2.9.2</swagger2.version>
+    </properties>
 
-  <dependencies>
+    <dependencies>
 
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot</artifactId>
-    </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+        </dependency>
 
-    <!-- swagger2 依赖 -->
-    <dependency>
-      <groupId>io.springfox</groupId>
-      <artifactId>springfox-swagger2</artifactId>
-      <version>${swagger2.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>io.springfox</groupId>
-      <artifactId>springfox-swagger-ui</artifactId>
-      <version>${swagger2.version}</version>
-    </dependency>
+        <!-- swagger2 依赖 -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${swagger2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${swagger2.version}</version>
+        </dependency>
 
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-netflix-zuul</artifactId>
-      <version>2.1.0.RELEASE</version>
-      <optional>true</optional>
-    </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-netflix-zuul</artifactId>
+            <version>2.1.0.RELEASE</version>
+            <optional>true</optional>
+        </dependency>
 
-  </dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+    </dependencies>
 
 </project>

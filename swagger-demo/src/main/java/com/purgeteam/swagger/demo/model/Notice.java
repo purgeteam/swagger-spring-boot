@@ -18,16 +18,16 @@ import lombok.NoArgsConstructor;
 @ApiModel("公告")
 public class Notice {
 
-  /**
-   * ID
-   */
-  @ApiModelProperty("id")
-  private Integer id;
+    /**
+     * ID
+     */
+    @ApiModelProperty("id")
+    private Integer id;
 
-  /**
-   * 公告内容
-   */
-  @ApiModelProperty("公告内容")
-  private String content;
+    /**
+     * 公告内容
+     */
+    @ApiModelProperty("公告内容")
+    private String content;
 
 }
