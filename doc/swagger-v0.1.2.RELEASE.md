@@ -29,7 +29,7 @@
 <dependency>
   <groupId>com.purgeteam</groupId>
   <artifactId>swagger-spring-boot-starter<factId>
-  <version>0.2.0.RELEASE</version>
+  <version>0.1.2.RELEASE</version>
 </dependency>
 ```
 
@@ -105,64 +105,6 @@ sick > giant-demo(已下线)
 ![image.png](https://raw.githubusercontent.com/purgeyao/purgeyao.github.io/master/img/blog/2019-12-27/01.png)
 
 ![image.png](https://raw.githubusercontent.com/purgeyao/purgeyao.github.io/master/img/blog/2019-12-27/02.png)
-
-### UI访问
-
-访问地址： `http://ip:端口/doc.html`
-
-![image.png](https://raw.githubusercontent.com/purgeyao/purgeyao.github.io/master/img/blog/other/knife4j/knife4j-home.png)
-
-可以访问基本ok。
-
-### 全局token
-
-新增 `Authorize` 全局 `token`
-
-默认参数设置为了 `Authorization` 储存在 `header`, 如和自己的参数不一致请在 `通用参数配置` 设置。
-
-![knife4j-token.png](https://raw.githubusercontent.com/purgeyao/purgeyao.github.io/master/img/blog/other/knife4j/knife4j-token.png)
-
-### 通用参数配置
-
-通用参数配置是一个比较常用的功能，如 携带 `token` 访问接口。
-
-和 `postman` 功能类似，解决 `swagger` 缺陷。 
-
-**开启功能**
-
-**路径：**  `文档管理/个性化设置`
-
-- 启用Knife4j提供的增强功能
-- 开启动态请求参数
-
-![image.png](https://raw.githubusercontent.com/purgeyao/purgeyao.github.io/master/img/blog/other/knife4j/knife4j-function.png)
-
-**添加参数**
-
-**路径：**  `文档管理/全局参数设置`
-
-添加 `oauth2 token` 值已自己登陆token 前缀记得添加 `Bearer `。
-
-```
-参数名称: Authorization
-参数值: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1ODI4MjYyNTIsInVzZXJfbmFtZSI6ImFkbWluIiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9KSUFPU0UxIiwiUk9MRV9NRU1CRVJTIl0sImp0aSI6IjA3YWZjMDVhLWU3NjYtNDMxOC1iZGRmLWJkMWU4NTExOWU5MiIsImNsaWVudF9pZCI6InNzby1hdXRoLXNlcnZlciIsInNjb3BlIjpbInNlcnZlciJdfQ.LFMcZTXb0g4xTzRo8kVAwBbXe12-XRsYWJkHFBRCbWg
-```
-
-![image.png](https://raw.githubusercontent.com/purgeyao/purgeyao.github.io/master/img/blog/other/knife4j/knife4j-parameter.png)
-
-**访问接口**
-
-需要登陆的接口 在请求头里会默认都添加有 `Authorization`。
-
-![image.png](https://raw.githubusercontent.com/purgeyao/purgeyao.github.io/master/img/blog/other/knife4j/knife4j-user.png)
-
-### 离线文档
-
-Knife4j提供导出4种格式的离线文档(Html\Markdown\Word\Pdf)
-
-**路径:** 文档管理/离线文档
-
-![image.png](https://raw.githubusercontent.com/purgeyao/purgeyao.github.io/master/img/blog/other/knife4j/knife4j-document.png)
 
 ## 总结
 
