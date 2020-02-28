@@ -1,2 +1,2 @@
-#org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-#  SwaggerConfig
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.purgeteam.swagger.starter.knife4j.Knife4jConfiguration

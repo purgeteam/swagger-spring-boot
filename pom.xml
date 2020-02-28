@@ -14,7 +14,7 @@
 
     <groupId>com.purgeteam</groupId>
     <artifactId>swagger-spring-boot</artifactId>
-    <version>0.1.0.RELEASE</version>
+    <version>0.2.0.RELEASE</version>
     <name>swagger-spring-boot</name>
     <description>Swagger Springboot</description>
     <url>https://github.com/purgeteam/swagger-spring-boot</url>
@@ -66,7 +66,7 @@
     </distributionManagement>
 
     <properties>
-        <swagger-starter.version>0.1.1.RELEASE</swagger-starter.version>
+        <swagger-starter.version>0.2.0.RELEASE</swagger-starter.version>
 
         <java.version>1.8</java.version>
     </properties>
