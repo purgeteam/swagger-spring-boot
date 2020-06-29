@@ -42,7 +42,7 @@
 ```
 <dependency>
   <groupId>com.purgeteam</groupId>
-  <artifactId>swagger-spring-boot-starter<factId>
+  <artifactId>swagger-spring-boot-starter</artifactId>
   <version>0.2.0.RELEASE</version>
 </dependency>
 ```
